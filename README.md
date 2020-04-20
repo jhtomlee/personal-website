@@ -1,4 +1,7 @@
-# Tom's Personal Website
+
+
+## Description
+My personal website
 
 ## About
 * Developed by Tom JH Lee
