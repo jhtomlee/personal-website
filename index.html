@@ -19,29 +19,27 @@
     <link href="img/temp_favicon.png" rel="icon">
     <link href="img/temp_apple_touch_icon.png" rel="apple-touch-icon">
 
-    
-
-    <!-- Bootstrap core CSS -->
+    <!-- CSS files -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    
 
 </head>
 
 <body id="page-top">
 
-     <!-- Intro banner -->
-     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <!-- Intro banner -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
         <div class="hero-container" data-aos="fade-in">
             <h1>Tom Lee</h1>
-            
+
         </div>
     </section>
 
@@ -100,35 +98,100 @@
         </div>
     </nav>
 
-   <!-- main body section -->
+    <!-- main body section -->
     <div class="container-fluid p-0">
 
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-            <div class="w-100">
+        <section class="about-section p-3 p-lg-5 d-flex align-items-center" id="about">
+            <div class="container" data-aos="fade-up">
                 <h3 class="mb-0"> TOM
                     <span class="text-primary">LEE</span>
                 </h3>
                 <div class="subheading mb-5">310 S. 36th Street · Philadelphia, PA 19104 ·
                     <a href="mailto:jhltom@seas.upenn.com">jhltom@seas.upenn.com</a>
                 </div>
-                <p class="lead mb-5"> I've lived in Guatemala🇬🇹, South Korea🇰🇷 and the United States🇺🇸, and I'm trilingual in English, Spanish and Korean. I am passionate about building meaningful products and delivering impactful results, and I'm always open to new challenges that would require me to learn new technical skills and tools. I'm seeking new-grad, full-time opportunities in software engineering starting June 2021.  </p>
-
+                <p class="lead mb-5"> I've lived in Guatemala🇬🇹, South Korea🇰🇷 and the United States🇺🇸, and I'm
+                    trilingual in English, Spanish and Korean. I am passionate about building meaningful products and
+                    delivering impactful results, and I'm always open to new challenges that would require me to learn
+                    new technical skills and tools. I'm seeking new-grad, full-time opportunities in software
+                    engineering starting June 2021. </p>
             </div>
         </section>
 
         <hr class="m-0">
 
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="resume">
-            <div class="w-100">
-                <h4 class="mb-5">Resume</h4>
+            <div class="container">
 
-                <div class="subheading mb-3">Education</div>
+                <div class="section-title">
+                    <h4>Resume</h4>
+                </div>
 
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-up">
 
-                <div class="subheading mb-3">Professional Work Experience</div>
+                        <h5 class="resume-title">Education</h5>
+                        <div class="resume-item">
+                            <h6>Master of Computer &amp; Information Technology, Computer Science</h6>
+                            <h7>May 2021</h7>
+                            <p class="location"><em>University of Pennsylvania, Philadelphia, PA</em></p>
+                            <ul>
+                                <li>Selected Courses: Software Development, Algorithms & Computation, Computer Systems
+                                    Programming, Database and Information Systems, Software Systems*, Machine Learning*
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="resume-item">
+                            <h6>Dual Bachelor's degrees in Economics &amp; International Development Studies</h6>
+                            <h7>Aug 2019</h7>
+                            <p class="location"><em>Seoul National University, Seoul, South Korea</em></p>
+
+                            <ul>
+                                <li>Selected courses: Data Structures, Programming Practice, Principles of Programming,
+                                    Calculus, Statistics, Linear Algebra, Econometrics </li>
+                            </ul>
+                        </div>
+                        <h5 class="resume-title">Military Service</h5>
+                        <div class="resume-item">
+                            <h6>Social Service Personnel</h6>
+                            <h7>2016 - 2018</h7>
+                            <p class="location"> <em>Ministry of Foreign Affairs, Republic of Korea</em></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h5 class="resume-title">Professional Experience</h5>
+                        <div class="resume-item">
+                            <h6>Software Engineer Intern</h6>
+                            <h7>May 2020 - Aug 2020</h7>
+                            <p class="location"><em>NVIDIA, Santa Clara, CA </em></p>
+                            <ul>
+                                <li>Incoming Software Intern - Algorithms and Machine Learning</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h6>Full Stack Developer Intern</h6>
+                            <h7>May 2019 - Jul 2019</h7>
+                            <p class="location"><em>LivePitch, New York, NY (worked remotely from Seoul, South
+                                    Korea)</em></p>
+                            <ul>
+                                <li>Developed company's beta iOS application that integrates live video streaming and
+                                    e-commerce in collaboration with UX designer and developer; app is now available on
+                                    the App Store and has over 300 users.</li>
+                                <li>Implemented key features such as user authentication via email and social logins,
+                                    video livestreaming with chat functionality, upcoming live scheduling, shopping cart
+                                    and checkout with credit card payment processing, and user profile page with
+                                    subscription functionality.</li>
+                                <li>Designed and implemented NoSQL database schema for user, video, shopping order, and
+                                    live schedule data.</li>
+                                <li>Skills Utilized: JavaScript, React / React Native, REST API, GraphQL, Firebase,
+                                    Firestore, NoSQL, Git, Shopify API, Stripe API</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-        </section>
+        </section><!-- End Resume Section -->
 
         <hr class="m-0">
 
@@ -217,6 +280,10 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); // initializes AOS
+    </script>
 
 </body>
 
