@@ -23,18 +23,18 @@ h3, h4, h5, h6, h7 {
     color: #040b14
 }
 
-
 h3 {
     font-size: 6rem;
     line-height: 5.5rem
 }
 
 h4 {
-    font-size: 3.5rem
+    font-size: 3.5rem;
 }
 
 h5 {
-    font-size: 2rem
+    font-size: 2rem;
+    /* color: #149ddd; */
 }
 
 h6 {
@@ -48,9 +48,9 @@ h6 {
     height: 100vh;
     background: url("../img/hero-temp.jpg") top center;
     background-size: cover;
-  }
-  
-  #hero:before {
+}
+
+#hero:before {
     content: "";
     background: rgba(5, 13, 24, 0.3);
     position: absolute;
@@ -59,55 +59,53 @@ h6 {
     left: 0;
     right: 0;
     z-index: 1;
-  }
-  
-  #hero .hero-container {
+}
+
+#hero .hero-container {
     position: relative;
     z-index: 2;
     min-width: 300px;
-  }
-  
-  #hero h1 {
+}
+
+#hero h1 {
     margin: 0 0 10px 0;
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
-  }
-  
-  #hero p {
+}
+
+#hero p {
     color: #fff;
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
-  }
-  
-  #hero p span {
+}
+
+#hero p span {
     color: #fff;
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
-  }
-  
-  @media (min-width: 1024px) {
+}
+
+@media (min-width: 1024px) {
     #hero {
-      background-attachment: fixed;
+        background-attachment: fixed;
     }
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     #hero h1 {
-      font-size: 28px;
-      line-height: 36px;
+        font-size: 28px;
+        line-height: 36px;
     }
     #hero h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
     }
-  }
-  
-
+}
 
 /* ------------------- NAVBAR SECTION ------------------ */
 
@@ -130,14 +128,6 @@ h6 {
 
 .social-icons a:hover {
     background-color: #149ddd
-}
-
-.dev-icons {
-    font-size: 3rem
-}
-
-.dev-icons .list-inline-item i:hover {
-    color: #149ddd
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -223,12 +213,14 @@ section {
         min-height: 100vh
     }
 }
+
 @media (min-width:992px) {
     section {
         padding-top: 3rem!important;
         padding-bottom: 3rem!important
     }
 }
+
 /* .section-title h4{
     color: #149ddd!important;
 } */
@@ -251,51 +243,112 @@ p.lead {
     color: #149ddd!important;
 }
 
+.dev-icons {
+    font-size: 3rem;
+    /* color: #122f57 */
+}
+
+/* .skill-list li i{
+    color: #149ddd
+} */
+
+.dev-icons .list-inline-item i:hover {
+    color: #149ddd
+}
+
+.about-section .about-title{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* color: #149ddd; */
+}
+
+
+.about-section .count-box {
+    padding: 10px;
+    width: 100%;
+    flex: auto;
+    flex-direction: column-reverse;
+}
+
+.about-section .count-box i {
+    display: block;
+    font-size: 44px;
+    color: #149ddd;
+    /* color: #122f57; */
+    float: left;
+}
+
+.about-section .count-box span {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #050d18;
+    margin-left: 60px;
+}
+
+.about-section .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    /* color: #122f57; */
+}
+
+.about-section .count-box a {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+    color: #122f57;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    transition: ease-in-out 0.3s;
+}
 
 /* ------------------- RESUME SECTION ------------------ */
-.resume-section .resume-title{
+
+.resume-section .resume-title {
     /* font-size: 26px;
     font-weight: 700; */
     margin-top: 30px;
     margin-bottom: 30px;
     color: #149ddd;
-  }
-  
-  .resume-section .resume-item {
+}
+
+.resume-section .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
     border-left: 2px solid #1f5297;
     position: relative;
-  }
-  
+}
 
-  .resume-section .resume-item h6 {
-    /* line-height: 18px; */
-  }
-  
-  .resume-section .resume-item h7 {
+/* .resume-section .resume-item h6 {
+    line-height: 18px;
+  } */
+
+.resume-section .resume-item h7 {
     font-size: 16px;
     background: #e4edf9;
     padding: 5px 15px;
     display: inline-block;
-    
     font-weight: 600;
     margin-bottom: 10px;
-  }
-  
-  .resume-section .resume-item ul {
+}
+
+.resume-section .resume-item ul {
     padding-left: 20px;
-  }
-  
-  .resume-section .resume-item ul li {
+}
+
+.resume-section .resume-item ul li {
     padding-bottom: 10px;
-  }
-  
-  .resume-section .resume-item:last-child {
+}
+
+.resume-section .resume-item:last-child {
     padding-bottom: 0;
-  }
-  
-  .resume-section .resume-item::before {
+}
+
+.resume-section .resume-item::before {
     content: "";
     position: absolute;
     width: 16px;
@@ -305,8 +358,8 @@ p.lead {
     top: 0;
     background: #fff;
     border: 2px solid #1f5297;
-  }
+}
 
-  p.location {
+p.location {
     color: #050d18;
 }
