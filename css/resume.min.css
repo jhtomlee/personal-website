@@ -263,7 +263,6 @@ p.lead {
     /* color: #149ddd; */
 }
 
-
 .about-section .count-box {
     padding: 10px;
     width: 100%;
@@ -307,6 +306,10 @@ p.lead {
 }
 
 /* ------------------- RESUME SECTION ------------------ */
+
+.resume-section {
+    background: #f5f8fd;
+}
 
 .resume-section .resume-title {
     /* font-size: 26px;
@@ -362,4 +365,10 @@ p.lead {
 
 p.location {
     color: #050d18;
+}
+
+/* ------------------- CONTACT SECTION ------------------ */
+
+.contact-section {
+    background: #f5f8fd;
 }
