@@ -17,7 +17,7 @@ body {
     }
 }
 
-h3, h4, h5, h6, h7 {
+h3, h4, h5, h7 {
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-weight: 700;
     color: #040b14
@@ -38,7 +38,10 @@ h5 {
 }
 
 h6 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    color: #040b14
 }
 
 /* ------------------- HERO SECTION ------------------ */
@@ -256,8 +259,7 @@ p.lead {
     color: #149ddd
 }
 
-.about-section .about-title{
-
+.about-section .about-title {
     margin-top: 30px;
     margin-bottom: 30px;
     /* color: #149ddd; */
@@ -337,6 +339,7 @@ p.lead {
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #040b14
 }
 
 .resume-section .resume-item ul {
@@ -364,7 +367,137 @@ p.lead {
 }
 
 p.location {
-    color: #050d18;
+    color: #868e96
+}
+
+/* ------------------- PORTFOLIO SECTION ------------------ */
+
+.projects-section .portfolio-item {
+    margin-bottom: 30px;
+}
+
+
+.projects-section .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.projects-section .portfolio-wrap::before {
+    content: "";
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+.projects-section .portfolio-wrap:hover::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+
+.projects-section .portfolio-wrap .portfolio-title {
+    opacity: 1;
+    left: 0;
+    right: 0;
+    top: -60px;
+    z-index: 3;
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-section .portfolio-wrap .portfolio-title a {
+    color: #fff;
+    font-size: 38px;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    text-align: center;
+    background: rgba(20, 157, 221, 0.75);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.projects-section .portfolio-wrap .portfolio-title a:hover {
+    background: rgba(20, 157, 221, 0.95);
+}
+
+.projects-section .portfolio-wrap:hover .portfolio-title {
+    opacity: 1;
+    top: 0;
+}
+
+.projects-section .portfolio-wrap .portfolio-links {
+    opacity: 1;
+    left: 0;
+    right: 0;
+    bottom: -60px;
+    z-index: 3;
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-section .portfolio-wrap .portfolio-links a {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    background: rgba(20, 157, 221, 0.75);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.projects-section .portfolio-wrap .portfolio-links a:hover {
+    background: rgba(20, 157, 221, 0.95);
+}
+
+.projects-section .portfolio-wrap:hover .portfolio-links {
+    opacity: 1;
+    bottom: 0;
+}
+
+.projects-section .portfolio-wrap .portfolio-description {
+    opacity: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -150px;
+    z-index: 3;
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.projects-section .portfolio-wrap .portfolio-description p {
+    font-size: 100%;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background: rgba(20, 157, 221, 0.75); */
+    transition: 0.3s;
+    width: 100%;
+}
+
+.projects-section .portfolio-wrap .portfolio-description p:hover {
+    /* background: rgba(20, 157, 221, 0.95); */
+}
+
+.projects-section .portfolio-wrap:hover .portfolio-description {
+    opacity: 1;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* ------------------- CONTACT SECTION ------------------ */
