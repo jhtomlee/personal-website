@@ -328,10 +328,6 @@ p.lead {
     position: relative;
 }
 
-/* .resume-section .resume-item h6 {
-    line-height: 18px;
-  } */
-
 .resume-section .resume-item h7 {
     font-size: 16px;
     background: #e4edf9;
@@ -488,10 +484,6 @@ p.location {
     width: 100%;
 }
 
-.projects-section .portfolio-wrap .portfolio-description p:hover {
-    /* background: rgba(20, 157, 221, 0.95); */
-}
-
 .projects-section .portfolio-wrap:hover .portfolio-description {
     opacity: 1;
     top: 60px;
@@ -502,6 +494,55 @@ p.location {
 
 /* ------------------- CONTACT SECTION ------------------ */
 
-.contact-section {
+.community-section {
     background: #f5f8fd;
+}
+
+.community-section .activity-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+
+.community-section .activity-item h7 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #040b14
+}
+
+.community-section .activity-item ul {
+    padding-left: 20px;
+}
+
+.community-section .activity-item ul li {
+    padding-bottom: 10px;
+}
+
+.community-section .activity-item:last-child {
+    padding-bottom: 0;
+}
+
+.community-section .activity-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+
+.community-section .activity-item .position{
+    color: black;
+}
+
+.community-section .activity-item .activity-half {
+    width: 50%;
 }
