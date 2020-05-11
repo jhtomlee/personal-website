@@ -255,6 +255,15 @@ p.lead {
     color: #149ddd
 } */
 
+#languageOnChange{
+    font-size: x-large;
+    color: #149ddd;
+}
+#frameworkOnChange{
+    font-size: x-large;
+    color: #149ddd;
+}
+
 .dev-icons .list-inline-item i:hover {
     color: #149ddd
 }
