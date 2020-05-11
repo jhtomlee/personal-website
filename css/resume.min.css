@@ -155,7 +155,7 @@ h6 {
         left: 0;
         display: flex;
         flex-direction: column;
-        width: 18rem;
+        width: 17rem;
         height: 100vh
     }
     #sideNav .navbar-brand {
