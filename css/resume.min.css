@@ -413,18 +413,18 @@ p.location {
 }
 
 .projects-section .portfolio-wrap .portfolio-title a {
-    color: #fff;
+    color: #149ddd;
     font-size: 38px;
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    text-align: center;
-    background: rgba(20, 157, 221, 0.75);
+    text-align: left;
+    /* background: rgba(20, 157, 221, 0.75); */
     transition: 0.3s;
     width: 100%;
 }
 
-.projects-section .portfolio-wrap .portfolio-title a:hover {
+/* .projects-section .portfolio-wrap .portfolio-title a:hover {
     background: rgba(20, 157, 221, 0.95);
-}
+} */
 
 .projects-section .portfolio-wrap:hover .portfolio-title {
     opacity: 1;
@@ -444,17 +444,17 @@ p.location {
 }
 
 .projects-section .portfolio-wrap .portfolio-links a {
-    color: #fff;
+    color: #149ddd;
     font-size: 28px;
-    text-align: center;
-    background: rgba(20, 157, 221, 0.75);
+    text-align: right;
+    /* background: rgba(20, 157, 221, 0.75); */
     transition: 0.3s;
     width: 100%;
 }
 
-.projects-section .portfolio-wrap .portfolio-links a:hover {
+/* .projects-section .portfolio-wrap .portfolio-links a:hover {
     background: rgba(20, 157, 221, 0.95);
-}
+} */
 
 .projects-section .portfolio-wrap:hover .portfolio-links {
     opacity: 1;
@@ -472,6 +472,10 @@ p.location {
     transition: all ease-in-out 0.3s;
     display: flex;
     /* justify-content: center; */
+}
+
+.projects-section .portfolio-wrap .portfolio-description p{
+    color: black;
 }
 
 .projects-section .portfolio-wrap .portfolio-description p {
