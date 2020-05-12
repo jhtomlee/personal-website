@@ -413,7 +413,7 @@ p.location {
     opacity: 1;
     left: 0;
     right: 0;
-    top: -60px;
+    top: -120px;
     z-index: 3;
     position: absolute;
     transition: all ease-in-out 0.3s;
@@ -472,9 +472,9 @@ p.location {
 
 .projects-section .portfolio-wrap .portfolio-description {
     opacity: 1;
-    left: 0;
+    /* left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0; */
     top: -150px;
     z-index: 3;
     position: absolute;
@@ -488,7 +488,7 @@ p.location {
 }
 
 .projects-section .portfolio-wrap .portfolio-description p {
-    font-size: 100%;
+    font-size: 16px; 
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
@@ -500,9 +500,9 @@ p.location {
 .projects-section .portfolio-wrap:hover .portfolio-description {
     opacity: 1;
     top: 60px;
-    bottom: 0;
+    /* bottom: 0;
     left: 0;
-    right: 0;
+    right: 0; */
 }
 
 /* ------------------- COMMUNITY SECTION ------------------ */
