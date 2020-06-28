@@ -2,7 +2,7 @@
 # Personal Website
 
 ## Description
-My personal website http://www.jhtomlee.com
+My personal website http://jhtomlee.com
 
 ## Features
 * Animation on scroll using AOS
