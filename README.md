@@ -8,7 +8,8 @@ My personal website http://jhtomlee.com
 * Animation on scroll using AOS
 * Typewriter effect using Typed.js
 * DOM manipulation and mouse event handling using jQuery
+* Automatic deployment to AWS S3 bucket using AWS CodePipeline
 
 ## About
-* HTML5, CSS, jQuery, Bootstrap, AWS S3
+* HTML5, CSS, jQuery, Bootstrap, AWS (S3, CodePipeline)
 * Developed by jhtomlee
